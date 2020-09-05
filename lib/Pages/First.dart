@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_flowerimages/second.dart';
+import 'package:flutter_flowerimages/Pages/Second.dart';
+
 
 class Aaaa extends StatelessWidget {
   @override
@@ -10,12 +11,12 @@ class Aaaa extends StatelessWidget {
 //            width: 80,
         child: Center(
           child: GestureDetector(
-              onTap: (){
-                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>(Next())));
-              },
+            onTap: (){
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>(Next())));
+            },
             child: Container(
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10.0),
+                  borderRadius: BorderRadius.circular(10.0),
                   color: Color(0xffffd89b)
               ),
               height: 50,
